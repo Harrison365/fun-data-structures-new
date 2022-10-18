@@ -1,9 +1,9 @@
-function createStack(maxSize) {
+function createStack(maxSize = 5) {
   // build your stack object inside this factory function
   const stack = {};
   stack.quantity = 0;
   stack.storage = {};
-  stack.maxSize = maxSize || 5;
+  stack.maxSize = maxSize;
   stack.push = push;
   stack.pop = pop;
   stack.isEmpty = isEmpty;
