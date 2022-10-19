@@ -15,7 +15,7 @@ function createQueue(maxSize = 5) {
 }
 
 function enQueue(item) {
-  if (!this.back) {
+  if (this.back === 0) {
     this.back = 1;
     this.front = 1;
     this.storage[this.back] = item;
