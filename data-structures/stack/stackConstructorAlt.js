@@ -8,9 +8,6 @@ function Stack(maxSize = 5) {
   return stack;
 }
 
-const test = new Stack();
-console.log(test);
-
 const prototype = {
   push: function (item) {
     if (this.quantity < this.maxSize) {
@@ -41,5 +38,7 @@ const prototype = {
     return this.storage[this.quantity];
   },
 };
+const test = new Stack();
+console.log("HERE", test);
 
 module.exports = Stack;
