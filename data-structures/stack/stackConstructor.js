@@ -38,7 +38,5 @@ const stackPrototype = {
     return this.storage[this.quantity];
   },
 };
-const test = new Stack();
-console.log("HERE", test);
 
 module.exports = Stack;
