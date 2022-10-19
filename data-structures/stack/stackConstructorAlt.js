@@ -8,6 +8,9 @@ function Stack(maxSize = 5) {
   return stack;
 }
 
+const test = new Stack();
+console.log(test);
+
 const prototype = {
   push: function (item) {
     if (this.quantity < this.maxSize) {
