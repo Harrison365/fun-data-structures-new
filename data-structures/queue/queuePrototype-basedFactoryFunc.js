@@ -51,4 +51,4 @@ const queuePrototype = {
   },
 };
 
-module.exports = createQueue;
+module.exports = Queue;

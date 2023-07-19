@@ -39,4 +39,6 @@ const stackPrototype = {
   },
 };
 
+const newww = new Stack();
+
 module.exports = Stack;

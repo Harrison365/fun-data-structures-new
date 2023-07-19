@@ -1,4 +1,4 @@
-const Stack = require("./stackConstructorHarrison");
+const Stack = require("./stackPrototype-basedFactoryFunc");
 
 describe("Stack", () => {
   it("should return an object with the correct default values", () => {

@@ -1,4 +1,4 @@
-const Stack = require("./stackConstructor");
+const Stack = require("./stackPrototypeHarrison");
 
 describe("Stack", () => {
   it("should return an object with the correct default values", () => {
