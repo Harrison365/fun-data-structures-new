@@ -14,6 +14,7 @@ function createQueue(maxSize = 5) {
   return queue;
 }
 
+//add to end of queue
 function enQueue(item) {
   if (this.back === 0) {
     this.back = 1;
@@ -28,6 +29,7 @@ function enQueue(item) {
   }
 }
 
+//remove from start of queue e.g. {1:"apple", 2:"banana", 3:"orange"} => {2:"banana", 3:"orange"}
 function deQueue() {
   const itemToReturn = this.storage[this.front];
   delete this.storage[this.front];
