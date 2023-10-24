@@ -39,6 +39,7 @@ const stackPrototype = {
   },
 };
 
-const newww = new Stack();
+//the new keyword is not nessesary
+const example = new Stack();
 
 module.exports = Stack;

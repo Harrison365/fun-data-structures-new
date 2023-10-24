@@ -2,6 +2,7 @@ const Stack = require("./stackPrototype-basedFactoryFunc");
 
 describe("Stack", () => {
   it("should return an object with the correct default values", () => {
+    //the new keyword is not nessesary
     const testStack = new Stack();
 
     expect(testStack).toEqual(
